@@ -1,0 +1,21 @@
+{
+  "name": "fake-ecommerce-app",
+  "version": "1.0.0",
+  "description": "Practice for react-router-dom",
+  "main": "index.js",
+  "author": "Utkarsh The Legend Dubey",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
+  }
+}

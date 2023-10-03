@@ -1,0 +1,13 @@
+.greet-container {
+    width: 20rem;
+    margin: 3rem 0rem 0rem 37rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  button{
+    cursor: pointer;
+  }

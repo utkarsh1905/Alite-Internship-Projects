@@ -1,0 +1,45 @@
+.container {
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.light {
+  background-color: lightgrey;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.child {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.child.dark {
+  background-color: blue;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin: 0;
+}
