@@ -1,0 +1,19 @@
+table, th, td {
+    border: 1px solid black;
+ }
+
+ .frmError{
+    color: red;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 0px 0px 0px 5px;
+ }
+
+ button{
+   color: white;
+   background-color: rgb(69 69 255);
+   border: none;
+   width: 66%;
+   height: 100%;
+   border-radius: 2px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter And Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/Practice/JavaScript/Js-filter/css/style.css"  />
+</head>
+
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <body>
+      <nav class="nav-bar">
+        <div class="nav-holder">
+          <div class="navhader">
+            <h1>ShopCart.in</h1>
+          </div>
+          <div class="nav-list-holder">
+            <ul class="navlist">
+              <li class="navlist-item">Gallery</li>
+              <li class="navlist-item">About-Us</li>
+              <li class="navlist-item" onclick = "showSearch()" >Search</li>
+              <li class="navlist-item">Cart</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="container wrapper">
+        <div id="search-container">
+          <input type="search" id="search-input" class="search-input" placeholder="Search product name here.." />
+          <button id="search" class="search-input">Search</button>
+        </div>
+        <div id="buttons" class="filter-btn-container">
+          <button class="button-value" onclick="filterProduct('all')">All</button>
+          <button class="button-value" onclick="filterProduct('Topwear')">
+            Topwear
+          </button>
+          <button class="button-value" onclick="filterProduct('Bottomwear')">
+            Bottomwear
+          </button>
+          <button class="button-value" onclick="filterProduct('Jacket')">
+            Jacket
+          </button>
+          <button class="button-value" onclick="filterProduct('Hoodie')">
+            Hoodies
+          </button>
+          <button class="button-value" onclick="filterProduct('Watch')">
+            Watch
+          </button>
+          <button class="button-value" onclick="filterProduct('Sneeker')">
+            Shoes
+          </button>
+        </div>
+        <div id="products"></div>
+      </div>
+    
+      <script src="/Practice/JavaScript/Js-filter/js/script.js"></script>
+    </body>
+    
+    </html>
+ </body>
+</html>

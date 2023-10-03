@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ .shirt-img-size{
+    width: 35%;
+} 
+/* .left-width{
+    width: 50%;
+}  */
+
+p{
+    color: #6c757c;
+}
+
+a{
+   text-decoration: none;
+   color: #4f4f44;
+}
+a:hover{
+    text-decoration: none;
+    color: #4f4f44;
+}
+h2{
+    color: #4f4f44;
+    font-size: 1.5rem;
+}
+.main_cart{
+    background: #fff;
+}
+.card{
+    border: none;
+}
+.product_img{
+    min-width: 200px;
+    max-height: 200px;
+}
+.product_name{
+    color: black;
+    font-size: 1.4rem;
+}
+.card_title{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.remove_and_wish{
+    font-size: 0.8rem;
+    margin: 0 0 0 0;
+}
+.price_money{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.set-quantity{
+    position: relative;
+}
+.set-quantity::after{
+    content: '(Note, 1 piece)';
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    font-size: 0.7rem;
+    bottom: -20px;
+    right: 2rem;
+}
+.page-link{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   line-height: 16px;
+   width: 45px;
+   font-size: 1rem; 
+}
+.page-item input{
+    line-height: 16px;
+    padding: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.page-link:focus{
+    box-shadow: none;
+}
+.page-link:hover{
+    text-decoration: none;
+    color: #495057;
+}
+.price_indiv{
+    font-size: 1.1rem;
+}
+.fa-heart:hover{
+    color: red ;
+}

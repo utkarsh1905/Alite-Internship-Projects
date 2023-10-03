@@ -1,0 +1,157 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(
+      90deg,
+      rgba(238, 174, 202, 1) 12%,
+      rgba(200, 179, 215, 1) 45%,
+      rgba(148, 187, 233, 1) 91%
+    );
+  }
+  
+  .chat-icon {
+    font-size: 3.5rem;
+    cursor: pointer;
+    margin: 40rem 0px 0px 0px;
+    color: rgb(70, 181, 255);
+  }
+  
+  .chat-icon:hover {
+    color: rgb(238, 174, 202);
+  }
+  
+  .modal-head-container {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .top-icon-holder {
+    margin: 0px 110px 0px 0px;
+    gap: 1rem;
+  }
+  
+  .delete-msg-icon {
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .delete-msg-icon:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  .add-data-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .add-data-icon:hover {
+    color: rgb(27, 84, 255);
+  }
+  
+  .back-icon {
+    margin: 0px 110px 0px 0px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .back-icon:hover {
+    color: rgb(27, 84, 255);
+  }
+  
+  .form-label {
+    color: rgb(90, 103, 117);
+    cursor: pointer;
+  }
+  
+  .form-label:hover {
+    color: rgb(27, 84, 255);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .chat-data-holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Chat-banner-img {
+    width: 95%;
+  }
+  
+  #displayMessages {
+      width: 320px;
+      margin: 0rem 0rem;
+      height: 300px;
+      /* display: flex; */
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+      overflow: auto;
+      text-align: center;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+  }
+  p{
+    line-height: 1;
+  }
+  
+  #displayMessages::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .popup-message-holder {
+    margin: 0 0 0 0;
+  }
+  
+  .pop-1 {
+    margin: 6rem 20rem 0rem;
+  }
+  
+  .pop-2 {
+    margin: 6rem 0rem 0rem 20rem;
+  }
+  
+  .message-text {
+      font-weight: bold;
+      color: #555555;
+      /* word-spacing: 62px; */
+      /* margin: 1rem 8.9rem; */
+      line-height: 1px;
+      width: 100%;
+      text-align: center;
+      /* align-items: center; */
+      margin: 0 auto;
+      /* letter-spacing: 8px;*/
+  }
+  
+  .message-date {
+      color: #6f6262;
+      text-align: center;
+      font-size: 13px;
+      border-bottom: 1px solid;
+      margin: 1rem 5.25rem;
+      letter-spacing: 1px;
+      width: 167px;
+  }
+
+  #messageCount {
+    color: #ff8989;
+    font-size: 12px;
+}
+  
+  /* .textarea{
+  
+  } */
+  

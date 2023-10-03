@@ -1,0 +1,261 @@
+*{
+    padding: 0%;
+    margin: 0%; 
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navBar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.navBar-container{
+  display: flex;
+  align-items: center;
+  color: whitesmoke;  
+  padding: 0 50px;
+  height: 100%;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.logo-container{
+ flex: 1;
+}
+.logo{
+    font-size: 30px;
+    color: #4dbf00;
+}
+.menu-container{
+    flex: 6;
+
+}
+.menu-List{
+    display: flex;
+    list-style: none;
+
+}
+.menu-List-Item{
+ margin: 0 0 0 30px;
+ cursor: pointer;
+ font-weight: 700;
+}
+.profile-container{
+    flex: 2;
+    display: flex;
+    align-items: center ;
+    justify-content: flex-end
+}
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-text-container{
+   margin: 0 20px;
+}
+/* .profile-text{
+
+} */
+.profile-icon{
+    cursor: pointer;
+}
+.toggle{
+    width: 40px;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.toggle-icon{
+    color: goldenrod;
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+.sideBar{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 60px 0 0 0;
+}
+.sidbar-left-icon{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0 0 40px 0;
+    cursor: pointer;
+}
+.container{
+    background-color: rgb(14, 14, 14);
+    min-height: calc(100vh - 50px);
+    color: aliceblue;
+}
+.content-container{
+    margin: 0 0 0 50px;
+}
+.featured-content{
+    height: 50vh;
+    /* background-color: tomato; */
+    padding: 50px;
+}
+.featured-title{
+    width: 200px;
+    
+}
+.featured-desc{
+  width: 500px;
+  color: lightgrey;
+  margin: 30px 0;
+}
+.featured-button{
+  background-color: #4dbf00;
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.movie-list-container{
+  padding: 20px ;
+   
+}
+.movie-list-weapper{
+    position: relative;
+    overflow: hidden;
+}
+.movie-list{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+.movie-list-item{
+   margin: 0 30px 0 0; 
+   position: relative;
+}
+.movie-list-item:hover .movie-list-item-img{
+   transform: scale(1.2);
+   margin: 0 30px;
+   opacity: 0.5;
+}
+.movie-list-item:hover .movie-list-item-title,
+.movie-list-item:hover .movie-list-item-desc,
+.movie-list-item:hover .movie-list-item-button{
+    opacity: 1;
+}
+.movie-list-item-img{
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+}
+.movie-list-item-title{
+  background-color: #333;
+  padding: 0 10px;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 50px;
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+.movie-list-item-desc{
+    background-color: #333;
+    padding: 10px;
+    font-size: 14px;
+    /* font-weight: 700; */
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    width: 230px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+
+
+}
+.movie-list-item-button{
+   padding: 10px;
+   background-color: #4dbf00;
+   color: aliceblue;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   position: absolute;
+   bottom: 20px;
+   left: 50px;
+   opacity: 0;
+   transition: 1s all ease-in-out;
+
+} 
+.arrow{
+    font-size: 120px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    color: lightgray;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+/* Styles for White Theme */
+.container.active{
+    background-color: aliceblue;
+
+}
+.movie-list-title.active{
+   color: black; 
+}
+/* .navBar{
+    
+} */
+.navBar-container.active{
+    background-color: aliceblue;
+
+    color: black;
+}
+.sideBar.active{
+   background-color: aliceblue; 
+}
+.sidbar-left-icon.active{
+    color: black;
+}
+.toggle.active{
+    background-color: black;
+}
+.toggle-ball.active{
+    background-color: aliceblue;
+    /* left: 1px; */
+    transform: translateX(-20px);
+}
+
+
+@media only screen and (max-width:940px){
+    .menu-container{
+        display: none;
+    }
+}
