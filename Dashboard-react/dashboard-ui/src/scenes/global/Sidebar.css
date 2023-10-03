@@ -1,0 +1,10 @@
+#custom-box {
+  background-color: none !important;
+  background: transparent !important;
+}
+#custom-box:hove {
+  color: #868dfb !important;
+}
+#custom-box:active {
+  color: #6870fa !important;
+}
